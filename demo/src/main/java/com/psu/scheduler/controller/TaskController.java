@@ -1,9 +1,12 @@
-package com.psu.scheduler;
+package com.psu.scheduler.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.config.Task;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import com.psu.scheduler.service.TaskService;
 
 import java.util.List;
 
